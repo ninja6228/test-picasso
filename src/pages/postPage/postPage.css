@@ -1,0 +1,50 @@
+.postPage {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.postPage__block { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  gap: 25px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 0 12px 5px rgba(71, 71, 80, 0.25);
+  transition: .8s;
+}
+
+.postPage__title {
+  margin: 0;
+  font-size: 20px;
+  color: #636363;
+}
+
+.postPage__text {
+  width: 80%;
+  margin: 0 0 0 40px; 
+  font-size: 20px;
+  color: #979797;
+  line-height: 1.5;
+}
+
+.postPage__button {
+  background-color:rgba(50, 50, 56, 0.1);
+  padding: 0;
+  border: none;
+  width: 120px;
+  height: 35px;
+  border-radius: 20px;
+  color: black;
+  cursor: pointer;
+  transition: .8s;
+}
+
+.postPage__button:hover {
+  box-shadow: 0 0 3px 1px rgba(71, 71, 80, 0.25);
+}
